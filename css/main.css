@@ -5,7 +5,7 @@
   padding: 0; }
 
 body {
-  font-family: "Saira Semi Condensed", sans-serif; }
+  font-family: 'Saira Semi Condensed', sans-serif; }
 
 ul {
   display: flex; }
@@ -17,7 +17,7 @@ a {
   text-decoration: none; }
 
 .home-body {
-  background: url("/dist/img/Naruto-Backgrounds-1.jpg") no-repeat center center/cover border-box; }
+  background: url("../img/Naruto-Backgrounds-1.jpg") no-repeat center center/cover border-box; }
 
 #header-home {
   background: rgba(245, 169, 29, 0.6); }
@@ -93,7 +93,7 @@ a {
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "derecho derecho derecho" "twitter facebook instagram"; }
+  grid-template-areas: 'derecho derecho derecho' 'twitter facebook instagram'; }
   .main-footer .main-footer__h2 {
     font-size: 1rem;
     margin-top: 0.5rem;
@@ -122,7 +122,7 @@ a {
       color: #f7f7f7ff; }
 
 .history-body {
-  background: url("/dist/img/Naruto-Backgrounds-1.jpg") no-repeat center center/cover border-box; }
+  background: url("../img/Naruto-Backgrounds-1.jpg") no-repeat center center/cover border-box; }
 
 .main-nav__history {
   display: flex;
@@ -170,12 +170,12 @@ a {
   align-content: center;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(10, 30rem);
-  grid-template-areas: "v1 v1 t1 t1" "v2 v2 t2 t2" "v3 v3 t3 t3" "v4 v4 t4 t4" "v5 v5 t5 t5" "v6 v6 t6 t6" "v7 v7 t7 t7" "v8 v8 t8 t8" "v9 v9 t9 t9" "v10 v10 t10 t10"; }
+  grid-template-areas: 'v1 v1 t1 t1' 'v2 v2 t2 t2' 'v3 v3 t3 t3' 'v4 v4 t4 t4' 'v5 v5 t5 t5' 'v6 v6 t6 t6' 'v7 v7 t7 t7' 'v8 v8 t8 t8' 'v9 v9 t9 t9' 'v10 v10 t10 t10'; }
   @media (max-width: 40rem) {
     .main-nav__eb--container {
       grid-template-columns: repeat(1, auto);
       grid-template-rows: repeat(20, auto);
-      grid-template-areas: "t1 t1" "v1 v1" "t2 t2" "v2 v2" "t3 t3" "v3 v3" "t4 t4" "v4 v4" "t5 t5" "v5 v5" "t6 t6" "v6 v6" "t7 t7" "v7 v7" "t8 t8" "v8 v8" "t9 t9" "v9 v9" "t10 t10" "v10 v10"; } }
+      grid-template-areas: 't1 t1' 'v1 v1' 't2 t2' 'v2 v2' 't3 t3' 'v3 v3' 't4 t4' 'v4 v4' 't5 t5' 'v5 v5' 't6 t6' 'v6 v6' 't7 t7' 'v7 v7' 't8 t8' 'v8 v8' 't9 t9' 'v9 v9' 't10 t10' 'v10 v10'; } }
   .main-nav__eb--container h1 {
     font-size: 1.5rem; }
   .main-nav__eb--container .video-1 {
@@ -259,10 +259,10 @@ a {
         text-align: center; } }
 
 .contact-body {
-  background: url("/dist/img/naruto-contact-background.jpg") no-repeat center center/cover border-box; }
+  background: url("../img/naruto-contact-background.jpg") no-repeat center center/cover border-box; }
   @media (max-width: 40rem) {
     .contact-body {
-      background: url("/dist/img/naruto-contact-background.jpg") right 13% bottom 50%; } }
+      background: url("../docs/img/Naruto-Backgrounds-1.jpg") right 13% bottom 50%; } }
 
 #contact-a h2,
 #contact-a p {
@@ -271,7 +271,7 @@ a {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: "name email" "subject phone" "message message" "submit submit";
+  grid-template-areas: 'name email' 'subject phone' 'message message' 'submit submit';
   grid-gap: 1.2rem;
   margin: 1rem; }
   #contact-a .text-fields .name-input {
